@@ -33,7 +33,6 @@ class snakex(object):
 		self.xy = [[0,0]] * self.length
 		self.moveCounter= 0
 		self.snakehead = down 
-		self.snaketail = tdown
 
 	def draw(self, win):
 		win.fill((0,0,0))
